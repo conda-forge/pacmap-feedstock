@@ -23,7 +23,7 @@ requirements:
   run:
     - python >=3.6
     - scikit-learn >=0.20
-    - numba >=0.50
+    - numba >=0.57
     - python-annoy >=1.11
     - numpy >=1.20
 
