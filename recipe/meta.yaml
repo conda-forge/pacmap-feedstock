@@ -1,5 +1,5 @@
 {% set name = "pacmap" %}
-{% set version = "0.7.5" %}
+{% set version = "0.7.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pacmap-{{ version }}.tar.gz
-  sha256: 05c2dc6a7fde76982f4797816f65784b0282ef3b58db1d256610ccf044123892
+  sha256: fb726be829b47d90332b0357f205fee0a62cd0aec20bfad11d16ff1b407de0b5
 
 build:
   noarch: python
